@@ -1,0 +1,191 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+a {
+  color: #00B7FF;
+}
+p{
+  margin:0;
+  padding:0;
+}
+header{
+  width:100%;
+  background:rgb(30,130,210);
+}
+.top{
+  color:#fff;
+  padding:0.2rem 0 ;
+  display:flex;
+  margin:0rem 0.2rem;
+}
+.top div{
+  flex-grow:1;
+  position:relative
+}
+.top .mui-search ,.top .mui-placeholder,.top .mui-icon{
+  color:#fff;
+}
+.top span{
+  color:#fff;
+}
+.top>span{
+  margin-left:0.4rem;
+}
+.top div i{
+  position:absolute;
+  top:0.04rem;
+  right:0.2rem;
+}
+.navigate{
+  display:flex;
+  justify-content: space-between;
+}
+.navigate li{
+  flex-grow: 1;
+  text-align: center;
+  color:#fff;
+}
+.navigate li p{
+  margin-top:0.2rem;
+  color:#fff;
+}
+.function{
+  width:100%;
+  margin:0;
+  background: #fff;
+  padding:0.3rem 0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.function li{
+  margin-left:0.4rem;
+  width:2.0rem;
+  text-align: center;
+}
+.function li p{
+  font-size:0.28rem;
+}
+.function li img{
+  width:0.8rem;
+  height:0.8rem;
+}
+.alert_mes,
+.ad{
+  margin-top:0.2rem;
+}
+.alert_mes img{
+  width:100%;
+  height:2rem;
+  background-position: center;
+}
+.ad img{
+  width:100%;
+  height:2.3rem;
+  background-position: center;
+}
+.alert_mes{
+  width:100%;
+  height:2rem;
+}
+.cheap_pay{
+  margin-top:0.2rem;
+  background:#fff;
+}
+.title{
+  font-size:0.24rem;
+  height:1rem;
+  padding:0.1rem;
+  border-bottom:0.01rem solid #dadada
+}
+.title span:nth-child(1){
+    margin:0.2rem 0.1rem 0.2rem 0.2rem;
+    width:0.1rem;
+    height:0.4rem;
+    background:blue;
+    display: inline-block;
+}
+.title span:nth-child(2){
+  margin-bottom:0.2rem;
+  position:relative;
+  top:-0.25rem;
+}
+.container{
+  display:flex;
+}
+.container li{
+  flex-grow:1;
+  display:flex;
+}
+.container li:nth-child(1){
+  border-right:0.01rem solid #dadada;
+}
+.container li div{
+  margin:0.2rem 0.2rem 0.3rem 0.2rem;
+  flex-grow:1;
+}
+.container li div p{
+  margin:0;
+  font-size: 0.36rem;
+  color:#333;
+}
+.container li div span{
+  font-size: 0.24rem;
+  color:gray;
+}
+.container li img{
+  width:1rem;
+  height:1rem;
+  margin:0.3rem 0.4rem 0 0.2rem;
+}
+.serve{
+  width:100%;
+  height:1rem;
+}
+.supermarket{
+  padding:0.3rem 0.4rem;
+  margin-top:0.2rem;
+  background: #fff;
+}
+.supermarket .title{
+  border:none;
+}
+.supermarket .title img{
+  width:0.6rem;
+  height:0.6rem;
+}
+.supermarket .title span{
+  position:relative;
+  top:-0.1rem;
+}
+
+.s_info{
+  display:flex;
+  margin-bottom: 0.2rem;
+}
+.s_info p{
+  font-size:0.4rem;
+  color:#333;
+}
+.s_info span{
+  margin:0rem 0 0.1rem;
+  display:block;
+  font-size:0.32rem;
+  color:#666;
+}
+.s_info div{
+  flex-grow: 1;
+}
+.s_info  button{
+  font-size:0.24rem;
+}
+.s_info img{
+  margin:0 1rem 0.2rem 0rem;
+  width:2.2rem;
+  height:2.2rem;
+}
